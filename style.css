@@ -14,4 +14,17 @@ body {
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
+borber-bottom:4px solid var(--botao-ativo);
+boder-left:2px solid var(--botao-ativo);
+border-right:2px solid var(--botao-ativo);
+border-top:none;
+}
+.botao:first-child{
+    border-radius:40px 40px 00;
+}
+.botoes{
+    display:block;
+}
+@media screem and (min-width:768px){
+.botoes{display:block;}
 
