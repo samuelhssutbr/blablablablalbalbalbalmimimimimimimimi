@@ -27,4 +27,12 @@ border-top:none;
 }
 @media screem and (min-width:768px){
 .botoes{display:block;}
+.botoes{
+    display:flex;
+}
+    .botao:first-child{
+        berder-radius:40px000;}
+    .botao:last-child{
+        border-radius:0 40px0 0;}
+}
 
