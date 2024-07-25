@@ -25,3 +25,15 @@ body {
 h1{
   color: var(--cor-destaque);
  }
+
+button{
+  bockground-color:var(--cor-secundaria);
+  color:var(--cor-texto);
+  border:nome;
+  border-radius:15px;
+  padding:15;
+  transition:background-color 0.3s;
+  boyyon:hover{
+    backgroud-color:var(--cor-destaque);
+    color:var(--cor-principal);
+  }
